@@ -1,0 +1,20 @@
+.container{
+  width:80%;
+  margin:auto;
+  padding:20px;
+}
+
+.form-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:15px;
+}
+
+input,select{
+  padding:10px;
+}
+
+button{
+  padding:10px 20px;
+  cursor:pointer;
+}
